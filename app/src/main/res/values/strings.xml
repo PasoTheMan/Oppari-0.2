@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Oppari 0.2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Pasin ja Nahkiksen oppari poppari</string>
+    <string name="nav_header_subtitle">Something something darkside</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- sivujen tekstit + nurkan asetusnäppäin -->
+    <string name="action_settings">Settings</string>
+    <string name="Temperature">Temperature here</string>
+    <string name="Humidity">Humidity here</string>
+    <string name="Air_pressure">Air Pressure here</string>
+
+    <!-- navigoinnin tekstit -->
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Temperature</string>
+    <string name="menu_slideshow">Humidity</string>
+    <string name="menu_tools">Air pressure</string>
+
+    <!-- Share valikon tekstit -->
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+</resources>
