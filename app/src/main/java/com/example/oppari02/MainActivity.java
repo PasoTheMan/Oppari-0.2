@@ -90,17 +90,19 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-        if (id == R.id.nav_home) {
-            launchMainActivity();
-        } else if (id == R.id.nav_temperature) {
-            launchTemperatureActivity();
-        } else if (id == R.id.nav_humidity) {
-            launchHumidityActivity();
-        } else if (id == R.id.nav_airPressure) {
-            launchAirPressureActivity();
-        } else if (id == R.id.nav_share) {
-            //tänne ei välttämättä mitään
-
+        switch (id) {
+            case R.id.nav_home:
+                launchMainActivity();
+                break;
+            case R.id.nav_temperature:
+                launchTemperatureActivity();
+                break;
+            case R.id.nav_humidity:
+                launchHumidityActivity();
+                break;
+            case R.id.nav_airPressure:
+                launchAirPressureActivity();
+                break;
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
