@@ -64,6 +64,8 @@ public class MainActivity extends AppCompatActivity
         View m = findViewById(R.id.textView);   //nämä kaksi laittaa sisällön/tekstin näkyvyyden
         m.setVisibility(View.VISIBLE);
 
+            //JSON kikkailut tästä eteenpäin
+        listView = findViewById(R.id.listView);
         getJSON("http://91.158.253.42/fetch_all_stuff.php");
 
     }
