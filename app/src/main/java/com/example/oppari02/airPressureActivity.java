@@ -18,8 +18,11 @@ public class airPressureActivity extends MainActivity
         View m = findViewById(R.id.textView);   //tämä "poistaa" etusivun tekstin/sisällön
         m.setVisibility(View.GONE);   //tämä "poistaa" etusivun tekstin/sisällön
 
-        View p = findViewById(R.id.textAirPressure);
-        p.setVisibility(View.VISIBLE);
+
+
+
+        View button = findViewById(R.id.refreshButton);
+        button.setVisibility(View.VISIBLE);
     }
 
 }

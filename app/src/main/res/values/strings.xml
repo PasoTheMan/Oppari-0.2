@@ -6,11 +6,13 @@
     <string name="nav_header_subtitle">Something something darkside</string>
     <string name="nav_header_desc">Navigation header</string>
 
-    <!-- sivujen tekstit + nurkan asetusnäppäin -->
+    <!-- sivujen tekstit + ynnä muu -->
     <string name="action_settings">Settings</string>
     <string name="Temperature">Temperature here</string>
     <string name="Humidity">Humidity here</string>
     <string name="Air_pressure">Air Pressure here</string>
+    <string name="Refresh">Refresh</string>
+
 
     <!-- navigoinnin tekstit -->
     <string name="menu_home">Home</string>

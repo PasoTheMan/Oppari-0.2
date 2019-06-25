@@ -15,12 +15,14 @@ public class humidityActivity extends MainActivity
     protected void onStart () {
         super.onStart();
 
-
         View m = findViewById(R.id.textView);   //tämä "poistaa" etusivun tekstin/sisällön
         m.setVisibility(View.GONE);   //tämä "poistaa" etusivun tekstin/sisällön
 
-        View h = findViewById(R.id.textHumidity);
-        h.setVisibility(View.VISIBLE);
+
+
+
+        View button = findViewById(R.id.refreshButton);
+        button.setVisibility(View.VISIBLE);
     }
 
 }
